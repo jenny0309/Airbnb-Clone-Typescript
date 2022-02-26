@@ -1,0 +1,46 @@
+.banner {
+  height: 60vh;
+  position: relative;
+  background: url('https://photos.zillowstatic.com/fp/3459a8b71fffe0dccfbd635cd22515d6-uncropped_scaled_within_1536_1152.webp')
+    center center;
+  /* display: flex; */
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 20vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__info > button {
+  color: white;
+  background-color: #ff7779;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
